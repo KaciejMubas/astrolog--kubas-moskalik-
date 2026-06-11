@@ -32,7 +32,7 @@ export function DiscoveryForm({ dodajObiekt }: DiscoveryFormProps) {
         <div className="discovery-form-container">
             <h2>Rejestr Odkryć</h2>
 
-            {error && <p style={{ color: 'red', fontWeight: 'bold' }}>{error}</p>}
+
 
             <form className="discovery-form" onSubmit={handleSubmit}>
                 <div className="form-group">
@@ -56,6 +56,7 @@ export function DiscoveryForm({ dodajObiekt }: DiscoveryFormProps) {
                 </div>
 
                 <button type="submit" className="submit-btn">Dodaj obiekt</button>
+                {error && <p style={{ color: 'red', fontWeight: 'bold', paddingBottom: '5px'}}>{error}</p>}
             </form>
         </div>
     );

@@ -4,7 +4,7 @@ import { ObjectDetails } from './components/ObjectDetails';
 import { DiscoveryForm } from './components/DiscoveryForm';
 import './App.css';
 
-// Eksportujemy interfejs bezpośrednio stąd
+// dawid interfejs zrobiłem tak ze eksportujemy go odrazu z tad
 export interface CelestialObject {
     id: string;
     name: string;
@@ -19,21 +19,21 @@ const NoweObiektyStartowe: CelestialObject[] = [
         name: 'Neptun',
         type: 'Lodowy olbrzym',
         distance: '4.5 mld km od Słońca',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/6/63/Neptune_-_Voyager_2_2019_color_processed.jpg'
+        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Neptune_Voyager2_color_calibrated%2C_brightened.png/500px-Neptune_Voyager2_color_calibrated%2C_brightened.png'
     },
     {
         id: '2',
         name: 'Pluton',
         type: 'Planeta karłowata',
         distance: '5.9 mld km od Słońca',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Pluto_in_True_Color_-_Light_and_Dark__High-Res.jpg'
+        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Pluto-01_Stern_03_Pluto_Color_TXT.jpg/500px-Pluto-01_Stern_03_Pluto_Color_TXT.jpg'
     },
     {
         id: '3',
         name: 'Tytan',
         type: 'Księżyc Saturna',
         distance: '1.2 mld km od Ziemi',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Titan_visible_light_Cassini_2015.jpg'
+        imageUrl: 'https://s3.us-west-004.backblazeb2.com/wcn-media/2025/01/403_Titan_2D_Slider_Surface-768x516.jpg'
     }
 ];
 
