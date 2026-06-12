@@ -1,4 +1,4 @@
-import type { CelestialObject } from '../App'; // <-- Bezpieczny import typu
+import type { CelestialObject } from '../App';
 
 interface CatalogListProps {
     listaObiektow: CelestialObject[];
