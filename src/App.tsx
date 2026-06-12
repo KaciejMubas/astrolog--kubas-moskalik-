@@ -4,7 +4,7 @@ import { ObjectDetails } from './components/ObjectDetails';
 import { DiscoveryForm } from './components/DiscoveryForm';
 import './App.css';
 
-// dawid interfejs zrobiłem tak ze eksportujemy go odrazu z tad
+// dawid interfejs zrobiłem tak ze eksportujemy go odrazu stad
 export interface CelestialObject {
     id: string;
     name: string;
